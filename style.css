@@ -18,6 +18,7 @@ body {
     background: url("lines.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 7px;
 }
 
 #bloc-left {
