@@ -1,0 +1,100 @@
+body {
+    background: url("190.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+#bloc-page {
+    border: 1px solid black;
+    box-shadow: 10px 10px 35px black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    background: url("lines.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bloc-left {
+    text-align: center;
+    width: 35%;
+}
+
+#bloc-left-in {
+    padding-top: 20%;
+}
+
+#bloc-right {
+    text-align: center;
+    width: 35%;
+}
+
+#bloc-right-in {
+    padding-top: 35%;
+}
+
+.p1 {
+    margin-top: 50px;
+}
+
+#set {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+.nom, .mdp {
+    float: left;
+    margin-top: 17px;
+}
+
+.btn1 {
+    margin-top: 25px;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.btn2 {
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+input {
+    width: 99.2%;
+    height: 25px;
+    color: gray;
+    box-shadow: 3px 5px 5px gray;
+}
+
+.p2 {
+    margin-top: 35px;
+}
